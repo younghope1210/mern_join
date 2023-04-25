@@ -1,0 +1,19 @@
+
+
+.Container {
+    margin: 0 auto;
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+     width:100%; 
+     height:90vh;  
+     background:url("https://res.cloudinary.com/seoyoung/image/upload/c_scale,w_3500/v1680713665/starry-sky-1573492_ecwgii.jpg") no-repeat -600px -1100px;
+     animation: motion 10s linear 0s 1 alternate; margin-top: 0;
+
+}
+
+
+@keyframes motion {
+	0% {background:url("https://res.cloudinary.com/seoyoung/image/upload/c_scale,w_3500/v1680713665/starry-sky-1573492_ecwgii.jpg") no-repeat -600px -800px;}
+	100% {background:url("https://res.cloudinary.com/seoyoung/image/upload/c_scale,w_3500/v1680713665/starry-sky-1573492_ecwgii.jpg") no-repeat -600px -1100px;}
+}
